@@ -1,10 +1,10 @@
-# 📦 Supply Chain & Logistics Analytics Dashboard
+# 📦 Samsung Supply Chain & Logistics Analytics Dashboard
 
 ## 📌 Project Overview
 
 This Supply Chain & Logistics Analytics Dashboard was developed using **Power BI** to analyze supplier performance, inventory management, shipment operations, customer insights, and overall supply chain performance.
 
-The dashboard provides end-to-end visibility into the supply chain process, helping organizations optimize inventory, improve delivery performance, reduce delays, and enhance customer satisfaction.
+The dashboard provides end-to-end visibility across the supply chain, helping organizations optimize inventory, reduce delays, improve supplier efficiency, and enhance customer satisfaction through data-driven decision-making.
 
 ---
 
@@ -20,22 +20,26 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 
 ---
 
-## 📊 Key Business Metrics
+## 📊 Business KPIs
 
-- 💰 Gross Revenue: **$186.86M**
-- 💰 Total Revenue: **$176.95M**
-- 💰 Profit: **$48.56M**
-- 📦 Order Quantity: **129K**
-- 🏭 Inventory Quantity: **160K**
-- 🚚 Total Shipments: **8K**
-- 📈 Profit Margin: **27.44%**
-- 🎯 Perfect Order Rate: **75%**
+| KPI | Value |
+|------|--------|
+| Gross Revenue | $186.86M |
+| Total Revenue | $176.95M |
+| Profit | $48.56M |
+| Profit Margin | 27.44% |
+| Order Quantity | 129K |
+| Inventory Quantity | 160K |
+| Shipment Quantity | 3M |
+| Delivered Quantity | 187K |
+| Perfect Order Rate | 75% |
+| Total Shipments | 8K |
 
 ---
 
 ## 📈 Key Insights
 
-### Supplier Analytics
+### 🚢 Supplier Analytics
 
 - Supplier Performance Analysis
 - Average Lead Time Monitoring
@@ -44,16 +48,16 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 - Supplier Order Quantity Tracking
 - Supplier Cost Optimization
 
-### Inventory Analytics
+### 🏭 Inventory Analytics
 
 - Inventory Stock Monitoring
 - Safety Stock Analysis
-- Reorder Point Tracking
 - Inventory Turnover Analysis
+- Reorder Point Tracking
 - Defective Product Monitoring
 - Days of Inventory Analysis
 
-### Shipment Analytics
+### 🚚 Shipment Analytics
 
 - Shipment Cost Analysis
 - Delivery Performance Tracking
@@ -62,11 +66,11 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 - Delay Reason Analysis
 - Shipment Status Monitoring
 
-### Customer Analytics
+### 👥 Customer Analytics
 
 - Revenue Analysis
 - Profit Analysis
-- Customer Performance Analysis
+- Customer Performance Evaluation
 - Channel-wise Revenue Analysis
 - Discount Analysis
 - Product Category Performance
@@ -76,7 +80,7 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 ## ⚙ Technical Features
 
 - Star Schema Data Model
-- Advanced DAX Measures
+- 40+ DAX Measures
 - KPI Development
 - Interactive Filtering
 - Multi-Page Navigation
@@ -90,17 +94,13 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 
 ### 🏠 Home Page
 
-- Dashboard Navigation
-- Executive Overview
-- Business Summary
+![Home](scd6.png)
 
 ### 📊 Overview Dashboard
 
-- Revenue Performance
-- Profit Analysis
-- Inventory Summary
-- Shipment Summary
-- Customer Summary
+Provides a consolidated view of revenue, profit, inventory, shipment, supplier, and customer performance.
+
+![Overview](scd1.png)
 
 ### 🚢 Supplier Dashboard
 
@@ -109,6 +109,8 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 - Unit Cost Analysis
 - Supplier Performance Tracking
 
+![Supplier Dashboard](scd2.png)
+
 ### 🏭 Inventory Dashboard
 
 - Inventory Monitoring
@@ -116,61 +118,107 @@ The dashboard provides end-to-end visibility into the supply chain process, help
 - Defective Units Analysis
 - Inventory Turnover Metrics
 
+![Inventory Dashboard](scd3.png)
+
 ### 🚚 Shipment Dashboard
 
 - Shipment Delay Analysis
-- Carrier Performance
+- Carrier Performance Evaluation
 - Delivery Monitoring
 - Shipment Cost Trends
 
+![Shipment Dashboard](scd4.png)
+
 ### 👥 Customer Dashboard
 
-- Revenue & Profit Analysis
-- Customer Performance
-- Product Analysis
-- Channel Analysis
+- Revenue Analysis
+- Profit Analysis
+- Channel Performance
+- Product Performance
+- Discount Analysis
+
+![Customer Dashboard](scd5.png)
 
 ---
 
-## 🖼 Dashboard Preview
+## 🏗 Data Modeling
 
-### Home Page
+This dashboard follows a **Star Schema Data Model** to improve reporting efficiency and scalability.
 
-![Home](scd1.png)
+### Data Model Preview
 
-### Overview Dashboard
-
-![Overview](scd2.png)
-
-### Supplier Dashboard
-
-![Supplier](scd3.png)
-
-### Inventory Dashboard
-
-![Inventory](scd4.png)
-
-### Shipment Dashboard
-
-![Shipment](scd5.png)
-
-### Customer Dashboard
-
-![Customer](scd6.png)
+![Data Model](Data_modelling_supplychain.png)
 
 ---
 
-## 🎯 Business Value
+## 🧮 DAX Measures
+
+Created **40+ DAX Measures** to support advanced KPI calculations and business reporting.
+
+### Examples
+
+- Total Revenue
+- Gross Revenue
+- Profit
+- Profit Margin %
+- Perfect Order Rate %
+- Average Lead Time
+- Shipment Cost
+- Inventory Turnover Rate
+- Delay Percentage
+- Customer Revenue
+
+### DAX Measures Preview
+
+![DAX Measures](supplychain_measures.png)
+
+![DAX Measures](supplychain_measures2.png)
+
+---
+
+## 📋 Tables Used
+
+### Core Tables
+
+- Orders
+- Products
+- Suppliers
+- Inventory
+- Shipments
+- Customers
+- Calendar Table
+
+### Tables Preview
+
+![Tables](Tables_supply_chain.png)
+
+---
+
+## 🎥 Dashboard Walkthrough
+
+A complete dashboard walkthrough video is included in this repository.
+
+**File:** `Supply_Chain_Dashboard.mp4`
+
+---
+
+## 💼 Business Value
 
 This dashboard helps organizations:
 
-- Improve supplier management
-- Optimize inventory levels
-- Reduce shipment delays
-- Monitor logistics costs
-- Improve customer satisfaction
-- Increase operational efficiency
-- Support data-driven decision making
+✅ Improve supplier performance
+
+✅ Optimize inventory levels
+
+✅ Reduce shipment delays
+
+✅ Monitor logistics costs
+
+✅ Improve delivery efficiency
+
+✅ Increase customer satisfaction
+
+✅ Support strategic business decisions
 
 ---
 
@@ -184,6 +232,10 @@ This dashboard helps organizations:
 - scd4.png
 - scd5.png
 - scd6.png
+- Data_modelling_supplychain.png
+- supplychain_measures.png
+- supplychain_measures2.png
+- Tables_supply_chain.png
 - README.md
 
 ---
